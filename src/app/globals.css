@@ -26,3 +26,62 @@ a {
     background-color: var(--bg);
     color: var(--textColor);
 }
+
+.wrapper {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+@media screen and (max-width: 1440px) {
+    .wrapper {
+        max-width: 1360px;
+    }
+}
+
+@media screen and (max-width: 1360px) {
+    .wrapper {
+        max-width: 1160px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .wrapper {
+        max-width: 1080px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .wrapper {
+        max-width: 900px;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .wrapper {
+        max-width: 720px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        max-width: 640px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .wrapper {
+        max-width: 475px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+

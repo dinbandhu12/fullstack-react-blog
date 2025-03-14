@@ -22,7 +22,11 @@ a {
 }
 
 .dark {
-    --bg: #0f172a;
+    /* change the dark mode color if you want */
+    /* --bg: #0f172a; */
+    /* --bg: #282828; */
+    /* --bg: #2a2e32; */
+    --bg: #182027;
     --textColor: #ddd;
     --softBg: #334155;
     --softTextColor: #94a3b8;

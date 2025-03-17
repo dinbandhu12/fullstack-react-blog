@@ -1,0 +1,12 @@
+.title {
+    background-color: chocolate;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.content {
+    display: flex;
+    gap: 50px;
+}

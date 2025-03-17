@@ -101,4 +101,11 @@ a {
         padding-left: 10px;
     }
 }
+@media screen and (max-width: 480px) {
+    .wrapper {
+        max-width: 400px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
 

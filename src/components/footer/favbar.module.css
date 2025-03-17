@@ -1,2 +1,116 @@
 .container {
+    margin-top: 50px;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--softTextColor);
 }
+
+.info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logoText {
+    font-size: 24px;
+}
+
+.desc {
+    font-weight: 300;
+}
+
+.icons {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 100px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 300;
+}
+
+.listTitle {
+    font-weight: bold;
+}
+
+.list :global(a):hover {
+    color: #ff6600; 
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        gap: 10px;
+    }
+
+    .links {
+        gap: 50px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .links {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 640px) {
+    /* .links {
+        flex-direction: column;
+        font-size: 22px;
+    } */
+
+    .links {
+        font-size: 18px;
+    }
+}
+
+
+
+/* hover to bottom line effect */
+
+/* .list :global(a) {
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+} */
+
+/* .list :global(a)::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: currentColor;
+    transition: width 0.3s ease-in-out;
+}
+
+.list :global(a):hover::after {
+    width: 100%;
+} */

@@ -15,10 +15,10 @@ const Footer = () => {
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam veniam cumque inventore iste aspernatur corrupti, laborum exercitationem, alias debitis eveniet dicta ab veritatis voluptatum sed quae rerum sapiente ut deleniti!
         </p>
         <div className={styles.icons}>
-          <Image src="/facebook.png" alt='' width={18} height={18} />
-          <Image src="/instagram.png" alt='' width={18} height={18} />
-          <Image src="/tiktok.png" alt='' width={18} height={18} />
-          <Image src="/youtube.png" alt='' width={18} height={18} />
+          <Image src="/fb.png" alt='' width={18} height={18} />
+          <Image src="/in.png" alt='' width={18} height={18} />
+          <Image src="/x.png" alt='' width={18} height={18} />
+          <Image src="/li.png" alt='' width={18} height={18} />
         </div>
       </div>
       <div className={styles.links}>

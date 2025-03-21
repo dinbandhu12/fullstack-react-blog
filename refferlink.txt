@@ -1,3 +1,0 @@
-we use this repository as a for full stack blog project
-
-https://github.com/safak/next-blog.git
